@@ -9,32 +9,32 @@
     box-sizing: border-box;
     font-family: calculator;
 }
-.menu a:hover{
+#menu a:hover{
     color: #03A9F5;
 }
 a:visited{
     color: white;
 }
 h1:hover{
-    transition: font-size 2s;
-    font-size: 50px;
+    transition: color 2s;
+    color: #CA215A;
 }
 .capa{
-    width: 100vw;
-    height: 30vh;
     background: url("capa.png") no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
     display: flex;
+    padding: 80px;
     color: white;
 }
-.menu li{
-    display: flex;
+#menu li{
+    display: inline-block;
     align-items: center;
     justify-content: center;
     list-style: none;
     font-size: x-large;
+    padding: 20px;
 }
 .bg{
     background-color: #CA215A;
@@ -47,7 +47,11 @@ h1:hover{
 a{
     text-decoration: none;
 }
+header{
+    text-align: center;
+}
 footer{
+    color: white;
     bottom: 0;
     width: 100%;
     height: 100px;
