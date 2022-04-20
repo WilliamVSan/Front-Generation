@@ -5,6 +5,8 @@ function clique () {
 let nome = window.document.getElementById('nome')
 let email = document.getElementById('id')
 let assunto = document.getElementById('assunto')
+let text = "Olá Tudo bem?";
+let result = text.indexOf("Tudo Sim");
 
 function enviar() {
     if(nome.value == "" || email.value == ""|| assunto.value == ""){
